@@ -1,13 +1,25 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # NetflixGemini
+
+This is a React based platform providing real time movie suggestions as per current trends as well as user inputs.
+
+## Functionalities
+- New user sign-up.
+- Existing user sign-in.
+- Multiple lists of movies categorized into Top rated, Popular, Trending, Now Playing and more.
+- Search option to look for a particular movie or genre.
+- Sign out.
+
+## Tech-stack
+### Frontend
+- React v18
+  - Reusable functional components
+  - React hooks and custom hooks
+  - Redux toolkit
+  - React router
+- Vite v5.3
+
+### Backend
+- Google Firebase (Authentication and deployment)
+- The Movie Database a.k.a TMDB (APIs for fetching movie lists)
+- Google Gemini (API to get real-time movie suggestions based on user inputs)
+
