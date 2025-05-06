@@ -17,6 +17,7 @@ This is a React based platform providing real time movie suggestions as per curr
   - Redux toolkit
   - React router
 - Vite v5.3
+- Tailwind CSS
 
 ### Backend
 - Google Firebase (Authentication and deployment)
