@@ -8,8 +8,8 @@ export const SecondaryContainer = () => {
     if(!movies) return null;
 
     return(
-        <div className="secondary-container bg-black md:-mt-20">
-            <div className="mt-40 md:-mt-52 px-6 relative z-20">
+        <div className="secondary-container bg-black -mt-40">
+            <div className="mt-40 md:-mt-50 px-6 relative z-20">
             <MovieList title="Now Playing" movies={movies?.nowPlayingMovies} />
             <MovieList title="Top Rated" movies={movies?.topRatedMovies} />
             <MovieList title="Popular" movies={movies?.popularMovies} />

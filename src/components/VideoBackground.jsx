@@ -9,7 +9,7 @@ export const VideoBackground = ({ id, children }) => {
   return (
     <div className="video-background">
       <iframe
-        className="w-screen aspect-video"
+        className="w-screen aspect-video mt-15 md:mt-0"
         src={"https://www.youtube.com/embed/" + trailer?.key + "?&autoplay=1&mute=1"}
         title="YouTube video player"
         frameBorder="0"

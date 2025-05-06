@@ -5,7 +5,7 @@ export const VideoTitle = ({ title, overview }) => {
     <div className="video-title pt-30 px-10 absolute top-10 text-white w-screen md:aspect-video md:bg-gradient-to-b md:from-black">
       <h1 className="font-bold text-3xl my-2">{title}</h1>
       <p className="md:w-1/4 md:text-center">{overview}</p>
-      <div className="flex my-10">
+      <div className="flex my-10 hidden md:block">
         <button className="cursor-pointer px-7 py-2 mr-2 bg-white text-black rounded-lg hover:bg-opacity-80">
           <svg
             aria-hidden="true"

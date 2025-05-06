@@ -94,7 +94,7 @@ export const Header = () => {
               className="text-white m-3 px-2 bg-gray-800 rounded-lg cursor-pointer"
               onClick={handleSearch}
             >
-              {gpt?.showGptSearch ? "Home" : "GPT Search"}
+              {gpt?.showGptSearch ? "Home" : "Search"}
             </button>
           )}
           <img
